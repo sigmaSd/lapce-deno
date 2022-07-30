@@ -1,0 +1,16 @@
+name = "lapce-deno"
+display-name = "Deno"
+description = "Deno for Lapce: powered by Deno Lsp"
+version = "0.1.0"
+author = "SigmaSd"
+repository = "sigmasd/lapce-deno"
+wasm = "lapce-deno.wasm"
+
+[configuration]
+system_lsp = true
+language_id = "typescript"
+
+[configuration.options.binary]
+args = [
+    "lsp",
+]
